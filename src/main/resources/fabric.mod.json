@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "kosmokopacz",
+  "version": "1.0.0",
+  "name": "KosmoKopacz",
+  "description": "Projekt Kosmodrom",
+  "authors": [
+    "Tokarz",
+    "MonsteraDev"
+  ],
+  "contact": {
+    "website": "http://themoonv2.dev/",
+    "discord": "https://discord.gg/GbNn4NwkZ6"
+  },
+  "license": "ARR",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.tokarz.astro.kosmokopacz.z1"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.4 <1.22-",
+    "java": ">=21"
+  }
+}
